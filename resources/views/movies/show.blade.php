@@ -9,7 +9,7 @@
                     <div class="text-2xl mb-2 row">
                         <strong>Movie Details</strong>
                          <div class="text-end">
-                            <a href="{{ route('movies.edit', $movie->id) }}" class="btn btn-info">Edit</a>
+                            {{-- <a href="{{ route('movies.edit', $movie->id) }}" class="btn btn-info">Edit</a> --}}
                             <a href="{{ route('admin.dashboard') }}" class="btn btn-outline-secondary">Back</a>
                         </div>
                     </div>
